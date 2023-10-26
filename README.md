@@ -3,16 +3,16 @@ Design patterns in Python
 
 what is done:
 
--factory method
--abstract factory
--singleton
+* factory method
+* abstract factory
+* singleton
 
--adapter
--decorator
--facade
+- adapter
+- decorator
+- facade
 
--iterator
--observer
+- iterator
+- observer
 
 ## prereq
 ```bash
