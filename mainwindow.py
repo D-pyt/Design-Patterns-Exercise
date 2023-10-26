@@ -6,6 +6,7 @@ import adapterwindow
 import decoratorwindow
 import facadewindow
 import iteratorwindow
+import observerwindow
 
 
 class Window(Tk, Singleton):
@@ -31,6 +32,9 @@ class Window(Tk, Singleton):
         self.button = Button(self, text = 'Iterator-search', command=self.create_iterator)
         self.button.pack(expand=True)
 
+        self.button = Button(self, text = 'Observer', command=self.create_observer)
+        self.button.pack(expand=True)
+
     def create_window_filters(self):
         global extraWindow 
         extraWindow = filterswindow.Extra()
@@ -54,6 +58,10 @@ class Window(Tk, Singleton):
     def create_iterator(self):
         global extraWindow 
         extraWindow = iteratorwindow.Extra()
+    
+    def create_observer(self):
+        global extraWindow 
+        extraWindow = observerwindow.Extra()
 
 
 
