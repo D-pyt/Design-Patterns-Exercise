@@ -7,12 +7,12 @@ what is done:
 * abstract factory
 * singleton
 
-- adapter
-- decorator
-- facade
+* adapter
+* decorator
+* facade
 
-- iterator
-- observer
+* iterator
+* observer
 
 ## prereq
 ```bash
